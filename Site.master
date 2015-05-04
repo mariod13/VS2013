@@ -1,0 +1,31 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <title>ScottGu Sample</title>
+    <atlas:ScriptManager ID="scriptmanager1" EnablePartialRendering="true" runat="Server" />
+</head>
+<body>
+
+    <form id="f1" runat="server">
+
+    <div>
+
+        <div id="top">
+          &nbsp;
+        </div>    
+                
+        <div class="ContentContainer">
+
+            <asp:contentplaceholder id="c1" runat="server">
+            </asp:contentplaceholder>    
+                   
+        </div>
+        
+    </div>
+    </form>
+</body>
+</html>
